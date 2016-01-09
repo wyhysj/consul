@@ -49,6 +49,7 @@ type AgentServiceRegistration struct {
 	Address string   `json:",omitempty"`
 	Check   *AgentServiceCheck
 	Checks  AgentServiceChecks
+	EnableTagOverride bool
 }
 
 // AgentCheckRegistration is used to register a new check
